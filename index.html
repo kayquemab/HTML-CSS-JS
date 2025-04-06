@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/imagens/web_icon.png" type="image/png">
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <a href="/"><img id="icone" src="/imagens/icon_site.png" alt="Ícone do site"></a>
+        <nav>
+            <ul id="opcoes">
+                <li><a href="/">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div>
+        <div class="linha-solida"></div>
+        <div class="linha-pontilhada"></div>
+        <h1>HTML | CSS | JavaScript</h1>
+        <div class="linha-pontilhada"></div>
+        <div class="linha-solida"></div>
+    </div>
+
+    <div class="conteudo">
+
+        <!-- HTML -->
+        <div class="img_txt">
+            <figure class="polaroid">
+                <button class="escudo-html" data-id="html">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+                        alt="Ícone HTML" style="width: 100px;">
+                </button>
+                <figcaption>📄 HTML</figcaption>
+            </figure>
+            <div class="texto" id="texto-html" style="display: none;">
+                <p>HTML é a linguagem de marcação usada para criar a estrutura de uma página na internet...</p>
+            </div>
+        </div>
+
+        <!-- CSS -->
+        <div class="img_txt">
+            <figure class="polaroid">
+                <button class="escudo-css" data-id="css">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+                        alt="Ícone CSS" style="width: 100px; height: auto;">
+                </button>
+                <figcaption>🎨 CSS</figcaption>
+            </figure>
+            <div class="texto" id="texto-css" style="display: none;">
+                <p>CSS é a linguagem usada para estilizar os elementos criados com HTML.</p>
+            </div>
+        </div>
+
+        <!-- JavaScript -->
+        <div class="img_txt">
+            <figure class="polaroid">
+                <button class="escudo-js" data-id="js">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+                        alt="Ícone JavaScript" style="width: 100px; height: auto;">
+                </button>
+                <figcaption>⚙️ JavaScript</figcaption>
+            </figure>
+
+            <div class="texto" id="texto-js" style="display: none;">
+                <p>
+                    JavaScript é a linguagem que dá interatividade à sua página.
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
