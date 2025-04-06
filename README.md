@@ -16,10 +16,8 @@ Este repositório contém um site simples com foco educacional, onde são aprese
 
 ### 🚀 Como Usar
 
-1. Clone o repositório <br>
-link: (https://kayquemab.github.io/HTML-CSS-JS/)
-2. Abra o arquivo `index.html` no seu navegador
-3. Clique nos escudos para exibir o conteúdo de cada linguagem
+1. Clique no link: (https://kayquemab.github.io/HTML-CSS-JS/)
+2. Clique nos escudos para exibir o conteúdo de cada linguagem
 
 ### 🤝 Contribuição
 
