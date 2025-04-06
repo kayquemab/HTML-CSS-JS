@@ -6,7 +6,7 @@ Este repositório contém um site simples com foco educacional, onde são aprese
 
 ### 📂 Estrutura
 
-📂 Main 
+📂 Main  
 ├── 📁 imagens/  
 │  ├── icon_site.png  
 │  └── web_icon.png  
